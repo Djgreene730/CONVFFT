@@ -6,7 +6,7 @@ clear all;
 
 %% Setup Trial Parameters
 MatrixSize = [10:10:90 100:100:900 1000:1000:9000 10000:10000:100000];
-Trials = 2;
+Trials = 100;
 
 % Setup Results Matrix
 Results_CONV = zeros(length(MatrixSize),Trials);
